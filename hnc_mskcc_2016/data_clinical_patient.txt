@@ -1,0 +1,156 @@
+#Patient Identifier	Sex	12-245 Part C Consented	Detailed Primary Site	Overall Survival (Months)	Disease Free (Months)	Race Category	Diagnosis Age	Smoking History	Smoking	Tobacco Type	Alcohol History Documented 	Alcohol Consumption Frequency	Initial Treatment	Prior Treatment to IMPACT Sample	HPV Status	Disease Free Status	Disease Extent At Time IMPACT Was Sent	Patient's Vital Status	Overall Survival Status	WHO Class	Tumor Sample Histology	Immunosuppression	12-245	Clinical Trial	AGENT
+#Identifier to uniquely specify a patient.	Sex	12-245 Part C Consented	Detailed Primary Site	Overall survival in months since initial diagonosis.	Disease free (months) since initial treatment.	The text for reporting information about race.	Age at which a condition or disease was first diagnosed.	Smoking History	Smoking	Tobacco Type	Alcohol History Documented	Alcohol Consumption Frequency	Initial Treatment	Prior Treatment to IMPACT Sample	HPV status.	Disease free status since initial treatment.	Disease Extent At Time IMPACT Was Sent	The survival state of the person.	Overall patient survival status.	WHO class.	Tumor Sample Histology	Suppression of the immune system.	12-245	Clinical Trial	AGENT
+#STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	1	1	1	1	1	1
+PATIENT_ID	SEX	PARTC_CONSENTED_12_245	DETAILED_PRIMARY_SITE	OS_MONTHS	DFS_MONTHS	RACE	AGE	SMOKING_HISTORY	SMOKING	TOBACCO_TYPE	ALCOHOL_HISTORY_DOCUMENTED	ALCOHOL_CONSUMPTION_FREQUENCY	INITIAL_TREATMENT	PRIOR_TX_TO_IMPACT_SAMPLE	HPV_STATUS	DFS_STATUS	DISEASE_EXTENT	VITAL_STATUS	OS_STATUS	WHO_CLASS	TUMOR_SAMPLE_HISTOLOGY	IMMUNOSUPPRESSION	VAR_12_245	CLINICAL_TRIAL	AGENT
+P-0001467	Female	NO	Unknown Primary	28.0	7.1	White	48.0	Current	Smoking Pack:35	Cigarettes	Never		Chemoradiation	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Locoregional & Distant	DOD	1:DECEASED				Clinical	10-192	BKM120 + Carboplatin + Paclitaxel
+P-0000396	Female	NO	Base of tongue	48.5	11.1	White	56.0	Former	Smoking Pack:60	Cigarettes	Former	Alcohol abuse	Chemoradiation	RT & Chemo	Unknown	1:Recurred/Progressed	Distant	DOD	1:DECEASED				12-245	13-149	Vinorelbrine >> GDC0032
+P-0000586	Male	NO	Base of tongue	34.6	20.3	Asian	52.0	Never	Smoking Pack:0		Current	Weekly	Induction Chemotherapy	RT, Chemo, & Cetuximab	Negative	1:Recurred/Progressed	Locoregional	DOD	1:DECEASED				12-245	14-122, then 12-224	Cetuximab +REN1400
+P-0001903	Male	NO	Pyriform sinus	84.7	51.4	Asian Indian Pakistani	52.0	Never	Smoking Pack:0		Current	Occasional	Induction Chemotherapy	RT & Chemo	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING					None	Cetuximab
+P-0002592	Male	NO	Hypopharynx	29.5	16.5	White	60.0	Former	Smoking Pack:30	Cigarettes	Current	Daily	Chemoradiation	RT, Chemo, & Cetuximab	Negative	1:Recurred/Progressed	Locoregional & Distant	Dead	1:DECEASED						
+P-0003320	Male	NO	Larynx	16.6	17.0	White	74.0	Former	Smoking Pack:50-75	Cigarettes	Current	Former abuse--now occasional	Chemotherapy	None	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0003106	Male	NO	Larynx	178.0	5.6	White	67.0	Former	Smoking Pack:60	Cigarettes	Current	Occasional	Radiation	RT	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0001794	Male	NO	Larynx	85.2	25.6	White	62.0	Current	Smoking Pack:30	Cigarettes	Current	Weekly	Surgery + Radiation	RT	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING					None	Cetuximab
+P-0000319	Male	NO	Larynx	36.7	10.6	White	52.0	Former	Smoking Pack:70	Cigarettes	Current	Occasional	Chemoradiation	RT & Chemo	Negative	1:Recurred/Progressed	Distant	DUC	1:DECEASED				12-245	04-021(see comments)	Carboplatin + Paclitaxel >> Cetuximab + BYL719 >> Methotrexate
+P-0001557	Male	NO	Larynx	5.4	0.4	White	63.0	Current	Smoking Pack:50	Cigarettes	Current	Daily	Chemoradiation	RT & Chemo	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	None	None
+P-0003049	Male	NO	Larynx	13.8	7.8	White	63.0	Never	Smoking Pack:0		Current	Daily	Radiation	RT	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0003009	Female	NO	Larynx	12.9	4.4	White	52.0	Former	Smoking Pack:35	Cigarettes	Never		Chemoradiation	None	Negative	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0002745	Female	NO	Oral Tongue	35.2	33.8	White	54.0	Never	Smoking Pack:0		Current	Weekly	Surgery + Radiation	None	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0000573	Male	NO	Oral Tongue	42.8	15.0	Black	65.0	Current	Smoking Pack:38	Cigarettes	Current	Occasional	Surgery	None	Negative	1:Recurred/Progressed	Locoregional	DOD	1:DECEASED				12-245	None	None
+P-0001621	Female	NO	Oral Tongue	22.5	9.2	White	38.0	Never	Smoking Pack:0		Never		Surgery	None	Negative	1:Recurred/Progressed	Locoregional	Dead	1:DECEASED				12-245	None	Cetuximab + quad shot RT
+P-0003331	Male	NO	Oral Tongue	51.0	8.8	Asian Indian Pakistani	61.0	Former	Smoking Pack:0	Some chewing tobacco	Current	Occasional	Surgery + Chemoradiation	RT & Chemo	Negative	1:Recurred/Progressed	Locoregional	Dead	1:DECEASED						
+P-0001614	Female	NO	Oral Tongue	40.2	40.2	White	99.0	Former	Smoking Pack:0.5	Cigarettes	Never		Cetuximab	None	Positive	0:DiseaseFree	Locally advanced	NED	0:LIVING				12-245	None	None
+P-0000621	Male	NO	Oral Tongue	43.0	5.8	Hispanic	44.0	Former	Smoking Pack:0	1 cigar a week X 20 yrs	Former	Occasional	Surgery + Chemoradiation	RT & Chemo	Positive	1:Recurred/Progressed	Distant	Dead	1:DECEASED				12-245	None	Carboplatin + Paclitaxel >>Cetuximab
+P-0001641	Female	NO	Oral Tongue	32.7	3.7	Asian Indian Pakistani	74.0	Never	Smoking Pack:0		Never		Induction Chemotherapy	Chemo	Negative	1:Recurred/Progressed	Distant	DOD	1:DECEASED				12-245	14-122 (see comments)	REGN1400 + cetuximab >> Taxol + Cetuximab >> Paclitaxel
+P-0002750	Male	NO	Floor of Mouth	15.9	9.1	White	44.0	Former	Smoking Pack:20	Cigarettes	Former	Daily	Surgery + Chemoradiation	None	Positive	1:Recurred/Progressed	Distant	Dead	1:DECEASED						
+P-0001082	Female	NO	Maxillary Gingiva	12.3	11.2	White	81.0	Never	Smoking Pack:0		Never		Surgery + Cetuximab + Radiation	None	Negative	1:Recurred/Progressed	Locoregional	DOD	1:DECEASED				12-245	None	Cetuximab
+P-0000284	Male	NO	Buccal Alveolar Ridge	12.8	10.5	Asian Indian Pakistani	54.0	Former	Smoking Pack:1	Cigarettes & chewing tobacco	Former	Occasional	Surgery + Chemoradiation*	None	Negative	1:Recurred/Progressed	Locoregional & Distant	DOD	1:DECEASED				12-245	14-122 (see comments)	Carboplatin/Taxol >> Cisplatin >> Cetuximab
+P-0002073	Male	NO	Oral tongue	17.7	7.1	White	62.0	Former	Smoking Pack:22.5	Cigarrettes	Former	Occasional	Surgery + Radiation	None	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING					None--IMPACT notable for EGFR amplification	Cetuximab
+P-0000949	Male	NO	Mandibular Gingiva	18.0	11.8	White	66.0	Former	Smoking Pack:6	Cigarettes	Current	Occasional	Surgery + Cetuximab + Radiation	RT & Cetuximab	Negative	1:Recurred/Progressed	Locoregional & Distant	Dead	1:DECEASED				12-245	None	Carboplatin + Taxol
+P-0000467	Female	NO	Oral tongue	5.1	3.9	White	51.0	Former	Smoking Pack:7.5	Cigarettes	Never		Surgery + Chemoradiation	None	Negative	1:Recurred/Progressed	Locoregional	DUC	1:DECEASED				12-245	None	None
+P-0002185	Male	NO	Oral Tongue	17.3	3.4	White	50.0	Never	Smoking Pack:0		Never		Surgery	None	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0004352	Male	NO	Oral Tongue	15.9	2.5		59.0	Never	Smoking Pack:0		Former	Weekly	Surgery + Radiation	None	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0001538	Male	NO	Oral Tongue	25.2	10.9	White	55.0	Former	Smoking Pack:30	Cigarettes	Former	Occasional	Surgery + Chemoradiation	None	Negative	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING				12-245	On 04-021 beforehand, IMPACT profile suggested to continue; currently considering 14-234 or 14-267	BYL719 + Cetuximab
+P-0004174	Male	NO	Oral Tongue	8.6		Black	75.0	Former	Smoking Pack:0	Cigarettes	Never		Surgery + Chemoradiation	None	Negative	0:DiseaseFree	Locally advanced	AWD	0:LIVING						
+P-0003928	Female	NO	Maxilla	8.2	2.0	White	71.0	Former	Smoking Pack:20-25	Cigarettes	Former	Occasional	Surgery + Chemoradiation	RT, Chemo, & Cetuximab	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0002367	Male	NO	Buccal Mucosa	19.9	9.7	White	58.0	Former	Smoking Pack:1	Cigarettes and cigars	Current	Weekly	Surgery + Chemoradiation	None	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0000277	Female	NO	Upper Alveolus	190.6	11.3		59.0	Never	Smoking Pack:0		Current	Occasional	Surgery	RT	Negative	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0003059	Female	NO	Oropharynx	321.1	5.8	White	39.0	Never	Smoking Pack:0		Current	Occasional	Chemoradiation	RT & Chemo	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0004416	Male	NO	Base of Tongue	21.2	2.2	White	44.0	Former	Smoking Pack:5	Cigarettes	Former		Surgery + Radiation	RT	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0003031	Male	NO	Base of Tongue	15.3	0.9	White	69.0	Former	Smoking Pack:30	Cigarettes	Current	Weekly	Chemoradiation	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0002469	Male	NO	Tonsil	15.0	16.4	White	55.0	Never	Smoking Pack:0		Current	Occasional	Induction Chemotherapy	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0003711	Male	NO	Tonsil	16.8	5.3		50.0	Never	Smoking Pack:0		Current	Occasional	Induction Chemotherapy	RT & Chemo	Positive	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0004492	Male	NO	Base of Tongue	55.3	33.7		66.0	Former	Smoking Pack:8	Cigarettes	Never		Neck Dissection + Chemoradiation	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0002854	Male	NO	Base of Tongue	9.6	4.9		70.0	Former	Smoking Pack:15	Cigarettes	Never		Chemoradiation (Cetuximab alone)	RT & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0000768	Male	NO	Base of Tongue	63.4	31.3	White	58.0	Never	Smoking Pack:0		Former	Weekly	Chemoradiation	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	Continuation of 12-179; change to 14-211	Paclitaxel
+P-0000454	Male	NO	Tonsil	36.1	9.1	Asian Indian Pakistani	71.0	Former	Smoking Pack:0	Cigarettes	Former	Occasional	Induction Chemotherapy	RT & Chemo	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	Potential clinical trial at Mt. Sinai (6/9/2014)	None
+P-0003726	Female	NO	Tonsil	33.1	2.4	White	67.0	Never	Smoking Pack:0		Current	Daily	Surgery + Radiation	RT	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0000433	Male	NO	Tonsil	43.1	20.1	White	48.0	Never	Smoking Pack:0		Current	Weekly	Surgery	RT & Chemo	Positive	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING				12-245	Will consider DTC PI3K study upon tumor progression	None
+P-0002193	Male	NO	Tonsil	22.2	22.4	White	63.0	Never	Smoking Pack:0		Current	Occasional	Induction Chemotherapy	RT & Chemo	Positive	1:Recurred/Progressed	Distant	Dead	1:DECEASED						
+P-0001186	Male	NO	Base of Tongue	19.5	8.7	White	69.0	Never	Smoking Pack:0		Current	Daily	Induction Chemotherapy	RT, Chemo, & Cetuximab	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	None	Carboplatin + 5FU
+P-0000945	Male	NO	Tonsil	15.0	6.4	White	57.0	Never	Smoking Pack:0		Current	Daily	Chemoradiation	None	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	None	Cisplatin
+P-0001912	Male	NO	Tonsil	9.4	4.2	White	54.0	Former	Smoking Pack:15	Cigarettes & cigars	Current	Weekly	Chemoradiation	RT & Chemo	Positive	1:Recurred/Progressed	Distant	DOD	1:DECEASED					On 04-021 beforehand, IMPACT profile suggested to continue	BYL719 + Cetuximab
+P-0001682	Male	NO	Oropharynx	31.8	0.9	White	60.0	Never	Smoking Pack:0		Never		Chemoradiation	None	Positive	1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	None	None
+P-0002603	Male	NO	Nasal cavity	167.8	11.0	White	75.0	Never	Smoking Pack:0		Current	Daily	Incomplete Resection	RT	Negative	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0001598	Male	NO	Nasolacrimal apparatus	9.2	1.8	White	76.0	Never	Smoking Pack:0		Former	Weekly	Induction Chemotherapy	None	Positive	1:Recurred/Progressed	Locally advanced	AWD	0:LIVING				12-245	None, discussion of immunotherapy	Cetuximab >> Paclitaxel + Carboplatin
+P-0004126	Female	NO	Sinonasal	22.0	3.3		16.0	Never	Smoking Pack:0		Never		Incomplete Resection	None	Positive	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0002939	Male	NO	Ethmoid	18.5	4.4	White	35.0	Former	Smoking Pack:12	Cigarettes	Current	Occasional	Induction Chemotherapy	RT, Chemo, & Cetuximab	Negative	1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0003080	Male	NO	Unknown Primary	6.9	0.0	Black	68.0	Never	Smoking Pack:0		Never		Surgery + Chemoradiation	None	Unknown	1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0002411	Male	NO		14.9	7.3	Black	50.0	Never	Smoking Pack:0		Former	Occasional	Induction Chemotherapy	RT & Chemo	Positive	1:Recurred/Progressed	Locoregional	AWD	0:LIVING	HPV+ scc I or II					
+P-0001195	Male	NO		51.5	17.8	Asian Indian Pakistani	39.0	Never	Smoking Pack:0		Never		Chemoradiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING	EBER+ III			12-245	13-170	Capectitabine, Cisplatin
+P-0002484	Male	NO		55.9	32.0	Asian Indian Pakistani	57.0	Former	Smoking Pack:0	Cigarettes	Never		Chemoradiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING	EBER+ - likely II					
+P-0001405	Female	NO		26.5	15.7	Chinese	47.0	Never	Smoking Pack:0		Current	Occasional	Induction Chemotherapy	None	Negative	1:Recurred/Progressed	Distant	AWD	0:LIVING	EBER+ III			12-245	None	Carboplatin, Gemcitabin
+P-0002787	Male	NO		23.9	24.1	Filipino	63.0	Never	Smoking Pack:0		Current	Occasional	Induction chemotherapy	None		1:Recurred/Progressed	Distant	AWD	0:LIVING	EBER+ III					
+P-0000668	Female	NO		20.8	9.5	Chinese	65.0	Never	Smoking Pack:0		Never		Chemoradiation	None		1:Recurred/Progressed	Distant	Dead	1:DECEASED	EBER+ II			12-245	11-130	None
+P-0002198	Male	NO		25.8	8.1	Filipino	60.0	Former	Smoking Pack:16	Cigarettes	Current	Occasional	Chemoradiation	RT & Chemo		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING	EBER+ III					
+P-0003374	Male	NO		4.9	5.3	White	54.0	Never	Smoking Pack:0		Current	Daily	Induction Chemotherapy	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING	EBER+ III					
+P-0001660	Female	NO	Parotid Gland	26.4	27.4	White	51.0	Never	Smoking Pack:0		Current	Weekly	Chemoradiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	None (on 13-244 beforehand)	None
+P-0000524	Male	NO	Lacrimal Gland	58.1	17.7	White	53.0	Never	Smoking Pack:0		Never		Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid		12-245	13-244 (selected because no NOTCH study available)	Regorafenib
+P-0000340	Male	NO	Base of Tongue	85.9	74.9	White	59.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	None		1:Recurred/Progressed	Distant	DUC	1:DECEASED		Cribriform or Tubular		12-245	None	Vinorelbine
+P-0003056	Female	NO	Maxillary Sinus	152.4	31.8	White	50.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0003649	Male	NO	Base of Tongue	57.1	36.3	White	48.0	Former	Smoking Pack:10	Cigarettes	Never		Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0001422	Female	NO	Hard Palate	196.2	52.7	Asian Indian Pakistani	55.0	Former	Smoking Pack:21	Cigarettes	Former	Daily	Surgery + Radiation	RT		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244	Regorafenib
+P-0000717	Male	NO	Submandibular Gland	198.3	60.9	White	46.0	Former	Smoking Pack:15	Cigarettes	Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	None	None
+P-0000792	Male	NO	Base of Tongue	41.4	11.6	White	56.0	Former	Smoking Pack:30	Cigarettes	Former	Daily	Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244, 14-135	Regorafenib >> Mogamulizumab >> Doxorubicin
+P-0000434	Male	NO	Inferior Maxilla	76.8	41.7	Asian Indian Pakistani	55.0	Former	Smoking Pack:15	Cigarettes	Current	Occasional	Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244, 13-131	Regorafenib, Debio-1347
+P-0001363	Male	NO	Submandibular Gland	67.9	36.1	White	54.0	Former	Smoking Pack:6	Cigarettes	Current	Weekly	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid		12-245	None	None
+P-0000790	Male	NO	Submandibular Gland	78.3	33.4	Asian Indian Pakistani	70.0	Former	Smoking Pack:20	Cigarettes	Current	Weekly	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid		12-245	None	None
+P-0000618	Male	NO	Orbital Floor	29.7		Asian Indian Pakistani	52.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	None		0:DiseaseFree	Locally advanced	NED	0:LIVING		Solid		12-245	None	None
+P-0000948	Female	NO	Sublingual Gland	29.5	13.6	Asian Indian Pakistani	67.0	Never	Smoking Pack:0		Never		Surgery + Chemoradiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid		12-245	13-244	Regorafenib >>  Doxorubicin >> Axitinib
+P-0001327	Female	NO	Oropharynx	57.4	59.8	White	75.0	Never	Smoking Pack:0		Current	Occasional	Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	11-193 (consented same day as IMPACT consent)	Vinorelbine
+P-0000202	Male	NO	Parotid Gland	22.9	16.4	White	58.0	Former	Smoking Pack:1.5	Cigarettes	Current	Daily	Surgery + Chemoradiation	None		1:Recurred/Progressed	Distant	DOD	1:DECEASED		Solid		12-245	None	Vinorelbine, Doxorubicin
+P-0002486	Female	NO	Maxilla	21.6	22.5	White	66.0	Never	Smoking Pack:0		Current	Weekly	Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0001810	Male	NO	Trachea/Larynx	202.9	18.8	White	70.0	Former	Smoking Pack:25	Cigarettes	Current	Daily	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	Dead	1:DECEASED					None	None
+P-0001034	Female	NO	Floor of Mouth	104.8	17.7	Hispanic	64.0	Former	Social	Cigarettes	Never		Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING		Solid		12-245	13-244	Regorafenib
+P-0000374	Female	NO	Infratemporal Fossa	78.7	9.0	White	66.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	DUC	1:DECEASED				12-245	13-244 (selected because no NOTCH study available)	Cisplatin+ Vinorelbine >> Regorafenib
+P-0000507	Female	NO	Parotid Gland	240.4	13.5	White	72.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	14-097 (IMPACT related--11/13/2014 assessment)	Everolimus and BYL719
+P-0001201	Female	NO	Hard Palate	48.0	11.4	White	42.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	On 13-244 beforehand, IMPACT profile suggested to continue	None
+P-0001451	Female	NO	Lung	5.1	2.8	White	77.0	Former	Smoking Pack:10	Cigarettes	Current	Occasional	Chemotherapy	None		1:Recurred/Progressed	Distant	DUC	1:DECEASED		Solid		Clinical	None	Gemcitabine
+P-0000623	Female	NO	Parotid Gland	35.4	8.8		66.0	Former	Smoking Pack:4	Cigarettes	Never		Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid		12-245	None	None
+P-0001220	Male	NO	Sublingual Gland	84.5	10.4	White	43.0	Never	Smoking Pack:0		Never		Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244 (selected because no NOTCH study available)	Regorafenib
+P-0000980	Male	NO	Parotid Gland	37.5	21.3	Chinese	45.0	Never	Smoking Pack:0		Never		Surgery + Chemoradiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244	Regorafenib
+P-0001239	Male	NO	Floor of Mouth	67.2	56.2	White	72.0	Former	Smoking Pack:13	Cigarettes	Never		Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244	Regorafenib
+P-0001225	Male	NO	Parotid Gland	256.0	175.1	White	40.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	None	None
+P-0001585	Female	NO	Parotid Gland	25.1	8.9	White	18.0	Former	Smoking Pack:2	Cigarettes	Current	Monthly	Surgery	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING		Cribriform or Tubular		12-245	13-244	Regorafenib
+P-0002189	Male	NO	Larynx & Base of Tongue	88.5	5.6	White	53.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0003699	Female	NO	Submandibular Gland	86.5	73.4	White	68.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0004334	Female	NO	Submandibular Gland	107.2	11.8	White	59.0	Former	Smoking Pack:8	Cigarettes	Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0003469	Female	NO	Nasopharynx	9.0	5.1		63.0	Never	Smoking Pack:0		Never		Surgery	None		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid				
+P-0004186	Male	NO	Maxillary Alveolus	43.1	9.7	White	56.0	Former	Smoking Pack:52*	Cigarettes	Current	Occasional	Surgery + Chemoradiation	RT & Chemo		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0003327	Male	NO	Submandibular Gland	18.8	3.0	White	62.0	Former	Smoking Pack:10	Cigarettes	Current	Daily	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0003532	Male	NO	Submandibular Gland	66.5	30.6	White	56.0	Former	Smoking Pack:14	Cigarettes	Current	Occasional	Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Cribriform or Tubular				
+P-0004371	Male	NO	Sphenoid Sinus	8.6	2.0	White	64.0	Former	Smoking Pack:4	Cigarettes, some pipe	Current	Daily	Surgery + Chemoradiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING		Solid				
+P-0000313	Male	NO	Parotid Gland	168.2	64.8	Asian Indian Pakistani	46.0	Former		Cigarettes	Former	Occasional	Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	None	Vinorelbine
+P-0002168	Female	NO	Parotid Gland	43.5	14.6	White	61.0	Never	Smoking Pack:0		Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Distant	NED	0:LIVING						
+P-0002978	Female	NO	Parotid Gland	110.5	45.2	White	42.0	Former	Smoking Pack:5	Cigarettes	Current	Weekly	Surgery + Radiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0002108	Female	NO	Parotid Gland	7.8	7.8	White	51.0	Former	Smoking Pack:7.5	Cigarettes	Current	Weekly	Surgery + Chemoradiation	None		0:DiseaseFree	Locally advanced	NED	0:LIVING					None	Cisplatin
+P-0000910	Female	NO	Parotid Gland	43.6	16.4	Asian Indian Pakistani	38.0	Former		Cigarettes	Never		Surgery + Radiation	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	On waiting list for HRAS trial	Cisplatin + Vinorelbine >> Doxorubicin
+P-0001214	Female	NO	Base of Tongue	10.2	10.6	Black	70.0	Former	Smoking Pack:2	Cigarettes	Never		Chemotherapy + quad shot RT	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING				12-245	None	Cisplatin/Docetaxel >> Carboplatin/Paclitaxel >> Doxorubicin
+P-0002920	Female	NO	Hard Palate	54.8	24.8	White	73.0	Former	Smoking Pack:10	Cigarettes	Current	Weekly	Surgery + Chemoradiation	RT & Chemo		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0002755	Female	NO	Floor of Mouth/Submandibular Gland	2.4	6.3		89.0	Never	Smoking Pack:0		Never		Chemoradiation	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0000489	Male	NO	Maxillary Sinus	62.6	23.2	White	77.0	Never	Smoking Pack:0		Never		Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING				12-245	14-065 (IMPACT related--2/6/2015 assessment)	Lupron
+P-0000206	Female	NO	Parotid Gland	13.2	5.7	Black	82.0	Never	Smoking Pack:0		Never		Surgery + Chemoradiation	RT & Chemo		1:Recurred/Progressed	Locoregional & Distant	DUC	1:DECEASED				12-245	None	None
+P-0002948	Female	NO	Parotid Gland	24.2	16.3	White	57.0	Former	Smoking Pack:22.5	Cigarettes	Never		Surgery + Radiation	None		1:Recurred/Progressed	Distant	Dead	1:DECEASED						
+P-0003821	Male	NO	Parotid Gland	317.5	6.8	Asian Indian Pakistani	58.0	Former	Smoking Pack:7	Cigarettes	Current	Occasional	Surgery	None		1:Recurred/Progressed	Distant	Dead	1:DECEASED						
+P-0003646	Female	NO	Parotid Gland	13.1	7.5	White	70.0	Former	Smoking Pack:5	Cigarettes	Current	Occasional	Surgery + Chemoradiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0002045	Female	NO	Submandibular Gland	16.1	16.1	White	70.0	Current	Smoking Pack:55	Cigarettes	Never		Surgery + Radiation	None		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0004055	Male	NO	Parotid Gland	8.6	9.2		71.0	Former		Cigarettes	Current	Daily	THC Chemotherapy	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0003500	Male	NO	Parotid Gland	3.1	4.7	White	71.0	Former	Smoking Pack:2.5	Cigarettes	Former	Alcohol Abuse	Surgery	None		1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0000957	Female	NO	Lacrimal Gland	34.2	15.0	White	77.0	Never	Smoking Pack:0		Current	Occasional	Surgery	None		1:Recurred/Progressed	Locoregional	DOD	1:DECEASED				12-245	None	None
+P-0000775	Female	NO	Submandibular Gland	12.9	11.8	White	49.0	Former	Smoking Pack:25	Cigarettes	Current	Occasional	Surgery + Chemoradiation	None		1:Recurred/Progressed	Locoregional	AWD	0:LIVING				12-245	None--IMPACT notable for ERBB2 amplification, AR amplification, p53 mutation, and PTEN Y16X	Casoxdex, Lupron, Pertuzumab + Herceptin
+P-0003239	Male	NO	Lacrimal Gland/Ethmoid	38.5	19.1	White	68.0	Never	Smoking Pack:0		Current	Occasional	Excisional biopsy	RT		1:Recurred/Progressed	Distant	AWD	0:LIVING						
+P-0006480	Male	NO																							
+P-0000821	Male	NO	Neck/shoulder/face	94.6		White	68.0	Never			Current	Daily	Resection	None		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0002508	Male	NO	Scalp	122.2	118.4	White	69.0	Never			Current	Occasionally	Excision	RT & Chemo		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0003182	Male	NO	Postauricular	100.7		White	77.0	Former	Smoking Pack:72	Cigarettes	Never		Mohs surgery	Chemo		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0003277	Male	NO	Cheek	31.9	6.0	White	84.0	Never			Never		Mohs surgery	None		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			No			
+P-0003828	Female	NO	Mastoid	95.9		Black	50.0	Current	Smoking Pack:20	Cigarettes	Current	Occasionally	Radiation	RT & Chemo		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0001416	Female	NO	Neck	18.1	14.5	White	57.0	Former	Smoking Pack:10	Cigarettes	Former	Daily	Excision	RT		1:Recurred/Progressed	Distant Mets	Dead	1:DECEASED			No			
+P-0000582	Female	NO	Orbital	52.6	18.2	White	64.0	Former	Smoking Pack:20	Cigarettes	Current	Occasionally	Mohs surgery	RT & Cetuximab		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0000705	Male	NO	Scalp	185.5		White	73.0	Former		Cigar	Current	Weekly	Mohs surgery	None		0:DiseaseFree	Locally advanced	AWD	0:LIVING			Yes (CLL)			
+P-0003951	Male	NO	Forehead	15.7	10.6	White	74.0	Never			Never		Mohs surgery	RT		1:Recurred/Progressed	Locally advanced	Dead	1:DECEASED			No			
+P-0000951	Male	NO	Scalp	175.6	8.7	White	69.0	Never			Former	Daily	Excision	RT		1:Recurred/Progressed	Locoregional recurrence	Dead	1:DECEASED			No			
+P-0000237	Male	NO	Cheek	97.9	24.1	White	73.0	Former	Smoking Pack:19	Cigarettes	Current	Occasionally	Radiation	RT		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			No			
+P-0000919	Male	NO	Cheek	19.6	18.2	White	58.0	Former	Smoking Pack:20	Cigarettes	Never		Mohs surgery	RT		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			Yes (transplant)			
+P-0001229	Male	NO	Canthus	20.1		White	70.0	Former	Smoking Pack:70	Cigarettes	Current	Occasionally	Radiation	RT		0:DiseaseFree	Locally advanced	Dead	1:DECEASED			No			
+P-0001744	Male	NO	Nasal tip	98.8	8.5	White	71.0	Never			Current	Daily	Mohs surgery	RT, Chemo, & Cetuximab		1:Recurred/Progressed	Locoregional recurrence	DOD	1:DECEASED			No	12-245	None	Cetuximab
+P-0002209	Male	NO	Neck	9.3	6.3	White	79.0	Former	Smoking Pack:20	Cigarettes	Current	Daily	Mohs surgery	None		1:Recurred/Progressed	Locoregional recurrence	Dead	1:DECEASED			No			
+P-0002998	Male	NO	Ear	22.5	5.7	White	75.0	Never			Current	Weekly	Radiation	RT		1:Recurred/Progressed	Locoregional and distant recurrence	AWD	0:LIVING			No			
+P-0003053	Female	NO	Neck	87.8	6.2	White	55.0	Never			Current	Occasionally	Resection	None		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			No			
+P-0003104	Male	NO	Forehead	4.4		White	84.0	Former	Smoking Pack:45	Cigarettes	Never		Radiation	RT		0:DiseaseFree	Locally advanced	AWD	0:LIVING			yes (steroids)			
+P-0003161	Female	NO	Eyelid	16.4	3.5	White	83.0	Never			Never		Resection	None		1:Recurred/Progressed	Locally advanced	Dead	1:DECEASED			No			
+P-0003293	Female	NO	Scalp	15.8	13.4	Unknown	63.0	Never			Never		Resection and Radiation	RT		1:Recurred/Progressed	Distant Mets	AWD	0:LIVING			No			
+P-0003610	Male	NO	Scalp	-0.4	1.7	White	85.0	Former		Cigarettes	Current	Occasionally	Radiation outside	None		1:Recurred/Progressed	Locally advanced	AWD	0:LIVING			No			
+P-0003016	Male	NO	Lip	37.3	12.0	White	52.0	Never			Current	Weekly	Mohs surgery	RT		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			No			
+P-0004641	Male	NO	Ear	2.4	4.2	White	77.0	Current	Smoking Pack:60	Cigarettes	Never		Dissection	None		1:Recurred/Progressed	Regional recurrence	AWD	0:LIVING			No			
+P-0004130	Female	NO	Ear Canal	2.4		White	68.0	Former	Smoking Pack:20	Cigarettes	Current	Occasionally	CTRT	None		0:DiseaseFree	Locally advanced	AWD	0:LIVING			No			
+P-0004614	Female	NO	Eyelid	9.6		Unknown	81.0	Former	Smoking Pack:30	Cigarettes	Never		Excision	None		0:DiseaseFree	Locally advanced	AWD	0:LIVING			yes (Imuran)			
+P-0001736	Male	NO	Cheek	32.6	9.1	White	46.0	Never			Current	Occasionally	Mohs surgery	Chemo		1:Recurred/Progressed	Locally advanced	AWD	0:LIVING			No	12-245	None	Cisplatin
+P-0003857	Male	NO	Forehead	6.1	1.6	White	90.0	Former	Smoking Pack:1.5	Pipe	Current	Daily	CTRT	RT & Cetuximab		1:Recurred/Progressed	Locoregional recurrence	AWD	0:LIVING			No			
+P-0000227	Female	NO	Maxilla	44.2	13.6	White	61.0	Never	Smoking Pack:0		Never		Surgery + Radiation	None		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING				12-245	None	None
+P-0003272	Male	NO	Mandible	54.3	5.3	White	29.0	Current	Smoking Pack:1.5	Cigarettes	Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Locoregional & Distant	AWD	0:LIVING						
+P-0003492	Male	NO	Nasal Cavity	202.3	15.6	White	60.0	Former	Smoking Pack:10	Cigarettes	Current	Occasional	Surgery + Radiation	RT		1:Recurred/Progressed	Locoregional	AWD	0:LIVING						
+P-0003338	Male	NO																							
+P-0005209	Female	NO																							
+P-0002328	Male	NO																							
+P-0002818	Female	NO																							
